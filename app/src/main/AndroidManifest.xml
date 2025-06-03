@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Meritxell"
+        tools:targetApi="31">
+
+        <!-- Set WelcomeActivity as the launcher activity -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Declare all other activities -->
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".CreateAccountActivity" android:exported="true" />
+        <activity android:name=".UserHomeActivity" android:exported="true" />
+        <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".AppointmentsFragment" android:exported="true" />
+        <activity android:name=".HistoryFragments" android:exported="true" />
+        <activity android:name=".HomeFragments" android:exported="true" />
+        <activity android:name=".ScheduleAppointmentActivity" android:exported="true"  />
+        <activity android:name=".ViewAppointmentActivity" android:exported="true" />
+        <activity android:name=".AdminAppointmentsActivity" android:exported="true"/>
+        <activity android:name=".AdminAdoptActivity" android:exported="true"/>
+        <activity android:name=".UserAdoptActivity" android:exported="true"/>
+        <activity android:name=".UserDonationHubActivity" android:exported="true"/>
+        <activity android:name=".AdminDonationHubActivity" android:exported="true"/>
+        <activity android:name=".ChildStatusActivity" android:exported="true"/>
+        <activity android:name=".ClothesDonationActivity" android:exported="true"/>
+        <activity android:name=".EducationDonationActivity" android:exported="true"/>
+        <activity android:name=".ToysDonationActivity" android:exported="true"/>
+        <activity android:name=".FoodDonationActivity" android:exported="true"/>
+        <activity android:name=".MoneyDonationActivity" android:exported="true"/>
+        <activity android:name=".TrackDonationActivity" android:exported="true"/>
+        <activity android:name=".SponsorEducationActivity" android:exported="true"/>
+        <activity android:name=".SponsorMedicineActivity" android:exported="true"/>
+        <activity android:name=".GcashPaymentActivity" android:exported="true"/>
+        <activity android:name=".InboxActivity" android:exported="true"/>
+        <activity android:name=".ChatActivity" android:exported="true"/>
+        <activity android:name=".UserProfileActivity" android:exported="true"/>
+        <activity android:name=".Step1Activity" android:exported="true"/>
+        <activity android:name=".Step2Activity" android:exported="true"/>
+        <activity android:name=".Step3Activity" android:exported="true"/>
+        <activity android:name=".Step4Activity" android:exported="true"/>
+        <activity android:name=".Step5Activity" android:exported="true"/>
+        <activity android:name=".Step6Activity" android:exported="true"/>
+        <activity android:name=".Step7Activity" android:exported="true"/>
+        <activity android:name=".Step8Activity" android:exported="true"/>
+        <activity android:name=".Step9Activity" android:exported="true"/>
+        <activity android:name=".Step10Activity" android:exported="true"/>
+        <activity android:name=".UserProgressDetailActivity" android:exported="true"/>
+        <activity android:name=".ChatHead" android:exported="true"/>
+        <activity android:name=".UserMatchingActivity" android:exported="true"/>
+        <activity android:name=".AdminMatchingActivity" android:exported="true"/>
+        <activity android:name=".ViewMatchingStatusActivity" android:exported="true"/>
+        <activity android:name=".AdminDonationDetailActivity" android:exported="true"/>
+
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+
+
+
+</manifest>

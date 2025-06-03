@@ -1,0 +1,75 @@
+<resources>
+
+    <string-array name="appointment_type_options">
+        <item>Select Appointmet</item>
+        <item>Matching</item>
+        <item>Initial Consultation</item>
+        <item>Follow Up</item>
+        <item>Document Submission</item>
+    </string-array>
+    <string name="app_name">meritxell</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="time_options">
+        <item>Select Time</item>
+        <item>8:00 A.M.</item>
+        <item>9:00 A.M.</item>
+        <item>10:00 A.M.</item>
+        <item>11:00 A.M.</item>
+        <item>12:00 P.M.</item>
+        <item>1:00 P.M.</item>
+        <item>2:00 P.M.</item>
+        <item>3:00 P.M.</item>
+        <item>4:00 P.M.</item>
+        <item>5:00 P.M.</item>
+    </string-array>
+    <string name="app_description">AI Legal assistance for adoption in the Philippines</string>
+    <string name="hint_message">Ask Ally about adoption in the Philippines...</string>
+    <string name="button_send">Send</string>
+    <string name="welcome_message">👋 Hello! I\'m Ally, your AI Legal Assistant. I\'m here to help you with questions about adoption in the Philippines.\n\nYou can ask me in English or Filipino. How can I assist you today?</string>
+    <string name="error_network">Please check your internet connection and try again.</string>
+    <string name="error_general">Sorry, I encountered an error. Please try again.</string>
+    <string name="fallback_message">Sorry, I didn\'t get that. Could you please rephrase your question about adoption in the Philippines?</string>
+    <string-array name="gender_options">
+        <item>Select Gender</item>
+        <item>Any</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="skin_color_options">
+        <item>Select Skin Color</item> <item>Any</item>
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="characteristics_options">
+        <item>Select Characteristics</item>
+        <item>Any</item>
+        <item>Playful</item>
+        <item>Calm</item>
+        <item>Energetic</item>
+        <item>Creative</item>
+    </string-array>
+
+    <string-array name="preferred_size_options">
+        <item>Select Size</item>
+        <item>Any</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="preferred_age_options">
+        <item>Select Age</item>
+        <item>Any</item>
+        <item>Infant (0-2)</item>
+        <item>Toddler (3-4)</item>
+        <item>Child (5-10)</item>
+        <item>Pre-teen (11-12)</item>
+    </string-array>
+
+    <string name="matching_terms_and_conditions">This matching system processes requests on a first-come, first-served basis. Users are encouraged to submit their preferences as early as possible. Once a match is proposed or accepted, no further submissions can be made until the current match is concluded or declined. All information provided will be kept confidential and used solely for the purpose of finding suitable matches.</string>
+
+</resources>
